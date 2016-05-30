@@ -12,9 +12,9 @@
     // https://github.com/yiisoft/yii/blob/1.1.17/framework/base/CException.php
     // https://github.com/yiisoft/yii/blob/1.1.17/framework/base/CHttpException.php
     // https://github.com/yiisoft/yii/blob/1.1.17/framework/utils/CFileHelper.php
-    require_once 'yii_classes/CException.php';
-    require_once 'yii_classes/CHttpException.php';
-    require_once 'yii_classes/CFileHelper.php';
+    require_once 'yii_classes'.DIRECTORY_SEPARATOR.'CException.php';
+    require_once 'yii_classes'.DIRECTORY_SEPARATOR.'CHttpException.php';
+    require_once 'yii_classes'.DIRECTORY_SEPARATOR.'CFileHelper.php';
 
     // AlxdExportXLSX (Class for export data to Microsoft Excel in format XLSX)
     // required program zip in UNIX
