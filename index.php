@@ -24,7 +24,7 @@
     // settings
     $settings = array(
         // log
-        'log_to'       => __DIR__.DIRECTORY_SEPARATOR.'log1.log',
+        'log_to'       => __DIR__.DIRECTORY_SEPARATOR.'log.log',
         // archive
         'archive_from' => 'http://www.cbr.ru/mcirabis/BIK/bik_db_'.date('dmY', time()).'.zip',
         'archive_to'   => __DIR__.DIRECTORY_SEPARATOR.'archive.zip',
